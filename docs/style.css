@@ -34,7 +34,13 @@ footer {
   width: 100%; /* Adjust the width as needed */
   max-width: 600px; /* Example width */
   margin: auto;
-  overflow: hidden; /* Hide overflowing images */
+}
+
+/* Hide the images by default */
+.slides img {
+  display: none;
+  width: 100%;
+  height: auto;
 }
 
 /* Next and previous buttons */
@@ -51,18 +57,6 @@ footer {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-}
-
-/* Images inside the slides */
-.slides {
-  display: flex;
-  transition: transform 0.5s ease; /* Slide transition */
-}
-
-.slides img {
-  width: 100%;
-  height: auto;
-  flex: 0 0 auto; /* Prevent images from stretching */
 }
 
 /* Position the previous button */

@@ -1,11 +1,10 @@
 let slideIndex = 0;
+const slides = document.querySelector(".slides");
 
 function showSlides() {
-  let i;
-  const slides = document.getElementsByClassName("slides");
-  const images = slides[0].getElementsByTagName("img");
+  const images = slides.getElementsByTagName("img");
 
-  for (i = 0; i < images.length; i++) {
+  for (let i = 0; i < images.length; i++) {
     images[i].style.display = "none";
   }
 
@@ -13,9 +12,11 @@ function showSlides() {
   if (slideIndex > images.length) {
     slideIndex = 1;
   }
-  images[slideIndex - 1].style.display = "block";
 
-  setTimeout(showSlides, 5000); // Change image every 5 seconds
+  // Slide animation by changing the transform property
+  slides.style.transform = `translateX(-${(slideIndex - 1) * 100}%)`;
+
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 
 function changeSlide(n) {

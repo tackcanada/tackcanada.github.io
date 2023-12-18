@@ -37,13 +37,6 @@ footer {
   overflow: hidden; /* Hide overflowing images */
 }
 
-/* Hide the images by default */
-.slides img {
-  display: none;
-  width: 100%;
-  height: auto;
-}
-
 /* Next and previous buttons */
 .prev, .next {
   cursor: pointer;

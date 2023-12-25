@@ -18,8 +18,9 @@ nav ul {
 }
 
 /* Divides nav bar */
-.left-nav  {
-  float: left;
+.left-nav img {
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .right-nav {

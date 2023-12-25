@@ -17,8 +17,13 @@ nav ul {
   overflow: hidden; /* Removes overflow completely */
 }
 
-nav li {
+/* Divides nav bar */
+.left-nav  {
   float: left;
+}
+
+.right-nav {
+  float: right;
 }
 
 nav li a {

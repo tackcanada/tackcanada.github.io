@@ -14,7 +14,6 @@ nav ul {
   margin: 0;
   padding: 0;
   background-color: #333; /* Background color for the navbar */
-  display: flex;
   align-items: center; /* Aligns the buttons vertically, making a horizontal line */
   overflow: hidden; /* Removes overflow completely */
 }

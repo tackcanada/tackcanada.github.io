@@ -1,11 +1,15 @@
 /* Basic styles */
-.body {
+body {
   margin: 0;
   font-family: 'Montserrat', sans-serif; /* Change the font-family to Montserrat */
   min-height: 100vh; /* Makes the body fills at least the screen (So that the footer isn't floating) */
 }
 
-.footer-design {
+main {
+  flex: 1; /* Makes the main container separate the header and footer, even if there's no main content */
+}
+
+footer {
   text-align: center;
   background-color: #f0471d;
   color: #fff;

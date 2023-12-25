@@ -9,6 +9,30 @@ main {
   flex: 1; /* Makes the main container separate the header and footer, even if there's no main content */
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333; /* Background color for the navbar */
+  overflow: hidden; /* Removes overflow completely */
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block; /* Set as block element */
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; /* Removes the default underline */
+}
+
+nav li a:hover {
+  background-color: #111; /* Color on hover */
+}
+
 footer {
   text-align: center;
   background-color: #f0471d;

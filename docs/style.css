@@ -9,6 +9,12 @@ main {
   flex: 1; /* Makes the main container separate the header and footer, even if there's no main content */
 }
 
+/* Slideshow buttons */
+.slide-button.active {
+  background-color: #f0471d; /* Change to your desired button active color */
+  color: white;
+}
+
 /* Navigation bar */
 nav ul {
   list-style-type: none;
@@ -38,7 +44,7 @@ nav li a {
   text-align: center;
   padding: 8px 16px;
   text-decoration: none; /* Removes the default underline */
-  font-size: 25px;
+  font-size: 18px;
 }
 
 nav li a:hover {

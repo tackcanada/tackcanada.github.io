@@ -42,7 +42,7 @@ nav li a {
   display: block; /* Set as block element */
   color: black;
   text-align: center;
-  padding: 8px 16px;
+  padding: 3px 16px;
   text-decoration: none; /* Removes the default underline */
   font-size: 18px;
 }

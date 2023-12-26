@@ -43,6 +43,11 @@ nav li a:hover {
   background-color: #111; /* Color on hover */
 }
 
+/* Hide the link that should open and close the topnav on small screens */
+nav .icon {
+  display: none;
+}
+
 footer {
   text-align: center;
   background-color: #f0471d;

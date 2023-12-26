@@ -23,20 +23,20 @@ nav ul {
 /* Divides nav bar */
 .left-nav img {
   width: 200px;
-  height: 80%;
+  height: auto;
 }
 
 .right-nav {
   display: flex;
   align-items: center; /* Aligns the buttons vertically, making a horizontal line */
   margin-left: auto; /* Pushes it to the right */
+  padding: 14px 16px;
 }
 
 nav li a {
   display: block; /* Set as block element */
   color: black;
   text-align: center;
-  padding: 28px 16px;
   text-decoration: none; /* Removes the default underline */
   font-size: 18px;
 }

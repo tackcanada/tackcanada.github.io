@@ -36,8 +36,9 @@ nav li a {
   display: block; /* Set as block element */
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 28px 16px;
   text-decoration: none; /* Removes the default underline */
+  font-size: 18px;
 }
 
 nav li a:hover {

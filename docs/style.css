@@ -16,6 +16,7 @@ nav ul {
   display: flex; /* Sets the nav bar as a flex container */
   background-color: #333; /* Background color for the navbar */
   overflow: hidden; /* Removes overflow completely */
+  align-items: center;
 }
 
 /* Divides nav bar */

@@ -32,24 +32,39 @@
   </nav>
 
   <main>
-    <!--Main Sections of Website (About, Our Work, Team, Get Involved)-->
-    <div class="slideshow-container"> <!--Slideshow on home page-->
-      <div class="slides">
-        <div class="slide fade">
-          <!--Slide content-->
-          <img src="slide1.jpg" alt="Slide 1">
-          <button class="slide-button" onclick="slideButtonClick(1)">Button 1</button>
-        </div>
-        <div class="slide fade">
-          <!-- Slide content -->
-          <img src="slide2.jpg" alt="Slide 2">
-          <button class="slide-button" onclick="slideButtonClick(2)">Button 2</button>
-        </div>
+    <!--Main Sections of Website (About, Our Work, Team, Get Involved)-->   
+    <div class="slideshow-container"> <!-- Slideshow container -->
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="img1.jpg" style="width:100%">
+        <div class="text">Caption Text</div>
       </div>
-  
-      <!--Manual control buttons-->
-      <a class="prev" onclick="plusSlides(-1)">❮</a>
-      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="img2.jpg" style="width:100%">
+        <div class="text">Caption Two</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="img3.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
     </div>
   </main>
 

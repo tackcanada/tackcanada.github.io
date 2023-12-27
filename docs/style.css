@@ -63,15 +63,6 @@ main {
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -118,6 +109,7 @@ nav ul {
 
 .right-nav {
   display: flex;
+  padding: 12px;
   align-items: center; /* Aligns the buttons vertically, making a horizontal line */
   margin-left: auto; /* Pushes it to the right */
 }
@@ -132,7 +124,7 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #888; /* Color on hover */
+  background-color: #999; /* Color on hover */
 }
 
 /* Hide the link that should open and close the topnav on small screens */

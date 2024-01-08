@@ -18,6 +18,7 @@ main {
   max-width: 100%;
   position: relative;
   margin: auto;
+  overflow: hidden;
 }
 
 /* Hide the images by default */

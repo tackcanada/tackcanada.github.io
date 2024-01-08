@@ -24,6 +24,7 @@ main {
 /* Hide the images by default */
 .mySlides {
   display: none;
+  overflow: hidden;
 }
 
 /* Next & previous buttons */

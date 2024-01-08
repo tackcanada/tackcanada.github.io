@@ -69,8 +69,8 @@ main {
   animation-duration: 2.5s;
 }
 
-.mySlides fade img {
-  /* max-width: 100%; */
+.mySlides.fade img {
+  max-width: 100%;
   height: auto;
 }
 

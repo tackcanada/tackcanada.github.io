@@ -69,11 +69,6 @@ main {
   animation-duration: 2.5s;
 }
 
-.mySlides.fade img {
-  max-width: 100%;
-  height: auto;
-}
-
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}

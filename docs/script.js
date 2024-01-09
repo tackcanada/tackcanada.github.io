@@ -4,7 +4,7 @@ function navBarResponse() {
     if (x.className === "right-nav") {
       x.className += " responsive";
     } else {
-      x.className = "topnav";
+      x.className = "right-nav";
     }
   }
 

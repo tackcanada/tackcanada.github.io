@@ -9,7 +9,7 @@ main {
   flex: 1; /* Makes the main container separate the header and footer, even if there's no main content */
 }
 
-/* Slideshow CSS (using example by w3schools) */
+/* Slideshow CSS (inspired by example by w3schools) */
 
 * {box-sizing:border-box}
 

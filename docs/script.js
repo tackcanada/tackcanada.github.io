@@ -1,5 +1,5 @@
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
+function navBarResponse() {
     var x = document.getElementById("rightNav");
     if (x.className === "right-nav") {
       x.className += " responsive";

@@ -33,10 +33,10 @@ main {
   top: 50%;
   width: auto;
   margin-top: -22px;
-  padding: 5vmin; /* % of the viewport's smaller dimension */
+  padding: 2.5vmin; /* % of the viewport's smaller dimension */
   color: white;
   font-weight: bold;
-  font-size: 10vmin;
+  font-size: 5vmin;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -105,7 +105,7 @@ nav li a {
   text-align: center;
   padding: 3px 16px;
   text-decoration: none; /* Removes the default underline */
-  font-size: 25px;
+  font-size: 20px;
 }
 
 nav li a:hover {

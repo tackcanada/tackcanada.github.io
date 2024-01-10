@@ -5,10 +5,6 @@ body {
   min-height: 100vh; /* Makes the body fills at least the screen (So that the footer isn't floating) */
 }
 
-main {
-  flex: 1; /* Makes the main container separate the header and footer, even if there's no main content */
-}
-
 /* Slideshow CSS (inspired by example by w3schools) */
 
 * {box-sizing:border-box}

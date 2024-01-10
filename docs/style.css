@@ -77,7 +77,7 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex; /* Sets the nav bar as a flex container */
-  background-color: #ddd; /* Background color for the navbar */
+  background-color: #eee; /* Background color for the navbar */
   overflow: hidden; /* Removes overflow completely */
   align-items: center;
 }

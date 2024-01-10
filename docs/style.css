@@ -81,7 +81,7 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex; /* Sets the nav bar as a flex container */
-  background-color: #bbb; /* Background color for the navbar */
+  background-color: #ddd; /* Background color for the navbar */
   overflow: hidden; /* Removes overflow completely */
   align-items: center;
 }
@@ -109,7 +109,7 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #999; /* Color on hover */
+  background-color: #bbb; /* Color on hover */
 }
 
 /* Hide the link that should open and close the topnav on small screens */

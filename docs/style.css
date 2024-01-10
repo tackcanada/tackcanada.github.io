@@ -137,6 +137,12 @@ nav .icon {
   }
 }
 
+/* About Section */
+
+.about-container {
+  padding: 128px, 16px;
+}
+
 /* Footer */
 footer {
   text-align: center;

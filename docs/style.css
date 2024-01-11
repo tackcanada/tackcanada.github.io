@@ -141,7 +141,7 @@ nav .icon {
 
 .about-container {
   padding: 128px, 16px;
-  align-items: center;
+  text-align: center;
 }
 
 .about-container p {

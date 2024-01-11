@@ -141,6 +141,11 @@ nav .icon {
 
 .about-container {
   padding: 128px, 16px;
+  align-items: center;
+}
+
+.about-container p {
+  font-size: 15px;
 }
 
 /* Footer */

@@ -89,7 +89,7 @@ nav ul {
 }
 
 .right-nav {
-  display: flex;
+  display: block;
   padding: 12px, 24px;
   align-items: center; /* Aligns the buttons vertically, making a horizontal line */
   margin-left: auto; /* Pushes it to the right */

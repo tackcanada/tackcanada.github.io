@@ -88,20 +88,19 @@ nav ul {
   height: auto;
 }
 
-.nav-bar {
+.right-nav {
   display: flex;
   align-items: center; /* Aligns items vertically in the center */
   justify-content: space-between; /* Aligns items along the horizontal axis */
 }
 
 nav li a {
-  display: flex;
+  display: block;
   color: black;
   text-align: center;
   padding: 3px 16px;
   text-decoration: none; /* Removes the default underline */
   font-size: 20px;
-  align-items: center;
 }
 
 nav li a:hover {

@@ -60,13 +60,13 @@ body {
   text-align: center;
 }
 
-/* Fading animation */
+/* Using the fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 2.5s;
 }
 
-@keyframes fade {
+@keyframes fade { /* Fading animation mechanics */
   from {opacity: .4}
   to {opacity: 1}
 }
@@ -92,10 +92,6 @@ nav ul {
   display: flex;
   align-items: center; /* Aligns items vertically in the center */
   justify-content: space-between; /* Aligns items along the horizontal axis */
-}
-
-.nav-bar .button {
-  height: 100%; /* Make the buttons take up the full height of the navigation bar */
 }
 
 nav li a {

@@ -91,7 +91,7 @@ nav ul {
 .nav-bar {
   display: flex;
   align-items: center; /* Aligns items vertically in the center */
-  justify-content: flex-end; /* Aligns items to the right */
+  justify-content: space-between; /* Aligns items along the horizontal axis */
 }
 
 .nav-bar .button {

@@ -2,13 +2,13 @@
 function navBarResponse() {
     var x = document.getElementById("rightNav");
     if (x.className === "right-nav") {
-      x.className += " responsive";
+      x.className += " responsive"; /* Adds the "responsive" class*/
     } else {
-      x.className = "right-nav";
+      x.className = "right-nav"; /* Removes the "responsive" class or keeps it if it already exists*/
     }
   }
 
-/* Slideshow mechanics (inspired by w3schools) */
+/* Slideshow mechanics */
   let slideIndex = 1;
   showSlides(slideIndex);
   

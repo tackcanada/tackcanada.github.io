@@ -92,6 +92,7 @@ nav ul {
   display: flex;
   align-items: center; /* Aligns items vertically in the center */
   justify-content: space-between; /* Aligns items along the horizontal axis */
+  float: right; /* Floats the nav bar to the right */
 }
 
 nav li a {

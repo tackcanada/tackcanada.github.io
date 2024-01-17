@@ -22,6 +22,11 @@ body {
   display: none;
 }
 
+.slideshow-container img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -92,7 +97,6 @@ nav ul {
   display: flex;
   align-items: center; /* Aligns items vertically in the center */
   justify-content: space-between; /* Aligns items along the horizontal axis */
-  float: right; /* Floats the nav bar to the right */
 }
 
 nav li a {
@@ -102,6 +106,7 @@ nav li a {
   padding: 3px 16px;
   text-decoration: none; /* Removes the default underline */
   font-size: 20px;
+  float: right; /* Aligns the text to the right */
 }
 
 nav li a:hover {

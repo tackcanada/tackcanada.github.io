@@ -113,7 +113,7 @@ nav li a {
   padding-top: 23px;
   padding-bottom: 22px;
   text-decoration: none;
-  font-size: 2.5vmin;
+  font-size: 2vmin;
 }
 
 nav li a:hover {
@@ -125,25 +125,13 @@ nav .icon {
   display: none;
 }
 
-/* When the screen is less than 1000 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the right-nav (.icon) */
 @media screen and (max-width: 600px) {
-  .right-nav a:not(:first-child) {display: none;}
-  .right-nav a.icon {
-    float: right;
-    display: block;
+  /* Style adjustments for small screens */
+  #rightNav.responsive {
+    position: relative;
   }
-}
 
-/* The "responsive" class is added to the right nav with JavaScript when the user clicks on the icon. This class makes the right nav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 1000px) {
-  .right-nav.responsive {position: relative;}
-  .right-nav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .right-nav.responsive a {
-    float: none;
+  #rightNav.responsive a {
     display: block;
     text-align: left;
   }

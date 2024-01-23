@@ -81,44 +81,39 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex; /* Sets the nav bar as a flex container */
   background-color: #eee; /* Background color for the navbar */
-  overflow: hidden; /* Removes overflow completely */
+  display: flex; /* Sets the nav bar as a flex container */
+  justify-content: space-between; /* Aligns items with space in between */
   align-items: center;
   height: 69px;
 }
 
-/* Divides nav bar */
+/* Logo styling */
 .left-nav img {
-  width: 250px;
+  width: 200px;
   height: auto;
 }
 
+/* Right nav styling */
 .right-nav {
   display: flex;
   align-items: center; /* Aligns items vertically in the center */
-  justify-content: space-between; /* Aligns items along the horizontal axis */
-  float: right;
-  margin-left: auto;
-  height: 100%;
 }
 
 nav li {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: 0;
 }
 
 nav li a {
   display: block;
   color: black;
   text-align: center;
-  padding: 3px 16px;
-  text-decoration: none; /* Removes the default underline */
-  font-size: 20px;
-  flex-grow: 1;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 23px;
+  padding-bottom: 22px;
+  text-decoration: none;
+  font-size: 2.5vmin;
 }
 
 nav li a:hover {
@@ -131,7 +126,7 @@ nav .icon {
 }
 
 /* When the screen is less than 1000 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the right-nav (.icon) */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   .right-nav a:not(:first-child) {display: none;}
   .right-nav a.icon {
     float: right;

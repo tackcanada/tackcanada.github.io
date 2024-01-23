@@ -85,6 +85,7 @@ nav ul {
   background-color: #eee; /* Background color for the navbar */
   overflow: hidden; /* Removes overflow completely */
   align-items: center;
+  height: 69px;
 }
 
 /* Divides nav bar */
@@ -98,6 +99,16 @@ nav ul {
   align-items: center; /* Aligns items vertically in the center */
   justify-content: space-between; /* Aligns items along the horizontal axis */
   float: right;
+  margin-left: auto;
+  height: 100%;
+}
+
+nav li {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 nav li a {
@@ -107,6 +118,7 @@ nav li a {
   padding: 3px 16px;
   text-decoration: none; /* Removes the default underline */
   font-size: 20px;
+  flex-grow: 1;
 }
 
 nav li a:hover {

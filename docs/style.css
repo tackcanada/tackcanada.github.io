@@ -125,12 +125,13 @@ nav .icon {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
-  /* Style adjustments for small screens */
-  #rightNav.responsive {
-    position: relative;
-  }
+/* Hide navigation links by default */
+#rightNav a {
+  display: none;
+}
 
+/* Style adjustments for small screens */
+@media screen and (max-width: 600px) {
   #rightNav.responsive a {
     display: block;
     text-align: left;

@@ -179,7 +179,7 @@ nav .icon {
   position: absolute;
   top: 10px;
   right: 10px;
-  font-size: 24px;
+  font-size: 50px;
   cursor: pointer;
   color: white;
   background-color: transparent; /* Set the background to transparent */
@@ -218,10 +218,11 @@ nav .icon {
 
 .sections {
   margin-top: 75px; /* Adds a top margin of 50px to space out the headings and the sections */
+  margin-bottom: 50px;
 }
 
 .sections i {
-  font-size: 5vmin;
+  font-size: 7.5vmin;
 }
 
 .about-container .description {

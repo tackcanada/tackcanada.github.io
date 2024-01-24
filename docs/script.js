@@ -8,6 +8,15 @@ function navBarResponse() {
     }
   }
 
+  /* Open and close the sliding nav */
+  function openNav() {
+    document.querySelector('.sliding-nav').style.width = '250px';
+  }
+  
+  function closeNav() {
+    document.querySelector('.sliding-nav').style.width = '0';
+  }
+
 /* Slideshow mechanics */
   let slideIndex = 1;
   showSlides(slideIndex);

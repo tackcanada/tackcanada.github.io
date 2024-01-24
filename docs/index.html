@@ -20,7 +20,7 @@
         <li><a href="#home"><img src="imgs/TACK_transparent.jpg" alt="Logo"></a></li>
       </div>
       <div class="right-nav" id="rightNav">
-        <a href="javascript:void(0);" class="icon" onclick="navBarResponse()"> <!--Used to open and close the top nav buttons on smaller screens-->
+        <a href="javascript:void(0);" class="icon" onclick="openNav()"> <!--Used to open and close the top nav buttons on smaller screens-->
           <i class="fa fa-bars"></i>
         </a>
         <li><a href="#about">ABOUT</a></li>
@@ -30,6 +30,17 @@
         <li><a href="#contact"><i class="fa fa-envelope"></i> CONTACT</a></li>
       </div>
     </ul>
+
+    <!-- HTML for the right nav buttons container -->
+    <div class="sliding-nav">
+      <a href="javascript:void(0);" class="close-btn" onclick="closeNav()">&times;</a>
+      <a href="#about">ABOUT</a>
+      <a href="#ourwork">OUR WORK</a>
+      <a href="#team">TEAM</a>
+      <a href="#getinvolved">GET INVOLVED</a>
+      <a href="#contact">CONTACT</a>
+      <!-- Add more links as needed -->
+    </div>
   </nav>
 
   <main>
@@ -56,11 +67,33 @@
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <!--Uses the < and > characters-->
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
+
     <!--About Section-->
     <div class="about-container" id="about">
       
       <h3>ABOUT OUR ORGANIZATION</h3>
       <p>Key features of the organization</p>
+
+      <div class="sections">
+        <div class="section1">
+          <i class="fa fa-desktop"></i>
+          <p>Accessibility</p>
+          <p class="description">As a Canadian non-profit, TACK Canada is committed to accessibility. We strive to make educational opportunities, training, and leadership accessible to all.</p>
+        </div>
+        <div class="section2">
+          <i class="fa fa-heart"></i>
+          <p>Passion</p>
+          <p class="description">We are passionate about supporting the youth of Canada, and we are committed to helping them reach their full potential. We focus on incorporating passion, fun, and growth into all of our work.</p>
+        </div>
+        <div class="section3">
+          <i class="fa fa-diamond"></i>
+          <p>Opportunities</p>
+        </div>
+        <div class="section4">
+          <i class="fa fa-gear"></i>
+          <p>Support</p>
+        </div>
+      </div>
 
     </div>
   </main>

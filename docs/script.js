@@ -36,3 +36,11 @@ function navBarResponse() {
     }
     slides[slideIndex-1].style.display = "block";
   }
+
+/* Image grid mechanics */
+const images = document.querySelectorAll('.image-grid img');
+images.forEach(image => {
+  image.addEventListener('click', () => {
+    // Add your zooming effect code here
+  });
+});

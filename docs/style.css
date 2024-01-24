@@ -247,7 +247,7 @@ nav .icon {
   margin-top: 15px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(30%, 1fr)); /* Adjust the minmax value as needed */
-  grid-gap: 10px; /* Adds a gap between the grid items */
+  grid-gap: 15px; /* Adds a gap between the grid items */
 }
 
 .ourwork-container {
@@ -258,6 +258,32 @@ nav .icon {
   width: 100%; /* Make the images fill the grid items */
   height: 100%;
   object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image-grid img:hover {
+  transform: scale(1.03);
+}
+
+/* Image Grid Clicking */
+
+.image-grid {
+  position: relative;
+}
+
+.image-grid .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-grid img.active + .overlay {
+  opacity: 1;
 }
 
 /* Footer */

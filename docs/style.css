@@ -243,9 +243,9 @@ nav .icon {
   font-weight: normal;
 }
 
-.ourwork .image-grid {
+.ourwork-container .image-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minmax value as needed */
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr)); /* Adjust the minmax value as needed */
   grid-gap: 10px; /* Adds a gap between the grid items */
 }
 
@@ -253,9 +253,10 @@ nav .icon {
   overflow: hidden; /* Ensure the items don't overlap */
 }
 
-.ourwork-container img {
-  width: 40%; /* Make the images fill the grid items */
-  object-fit: fill; /* Ensure the image height fills the grid item */
+.image-grid img {
+  width: 100%; /* Make the images fill the grid items */
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Footer */

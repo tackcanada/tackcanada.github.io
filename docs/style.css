@@ -234,12 +234,12 @@ nav .icon {
 
 .ourwork-container {
   background-color: #bbb;
-  padding: 128px, 16px;
+  padding: 100px;
   text-align: center;
 }
 
 .ourwork-container h3 {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: normal;
 }
 
@@ -249,13 +249,13 @@ nav .icon {
   grid-gap: 10px; /* Adds a gap between the grid items */
 }
 
-.work-item {
+.ourwork-container {
   overflow: hidden; /* Ensure the items don't overlap */
 }
 
-.work-item img {
-  width: 100%; /* Make the images fill the grid items */
-  height: auto; /* Maintain aspect ratio */
+.ourwork-container img {
+  width: 40%; /* Make the images fill the grid items */
+  object-fit: fill; /* Ensure the image height fills the grid item */
 }
 
 /* Footer */

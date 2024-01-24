@@ -179,7 +179,7 @@ nav .icon {
   position: absolute;
   top: 10px;
   right: 10px;
-  font-size: 50px;
+  font-size: 25px;
   cursor: pointer;
   color: white;
   background-color: transparent; /* Set the background to transparent */
@@ -197,13 +197,13 @@ nav .icon {
 /* About Section */
 
 .about-container {
-  padding: 128px, 16px;
+  padding: 100px;
   text-align: center;
 }
 
 .about-container h3 {
-  font-size: 32px;
-  font-weight: normal;  
+  font-size: 40px;
+  font-weight: normal;
 }
 
 .about-container p {
@@ -218,7 +218,6 @@ nav .icon {
 
 .sections {
   margin-top: 75px; /* Adds a top margin of 50px to space out the headings and the sections */
-  margin-bottom: 50px;
 }
 
 .sections i {
@@ -229,6 +228,34 @@ nav .icon {
   padding: 50px;
   padding-top: 20px;
   font-size: 18px;
+}
+
+/* Out Team Section */
+
+.ourwork-container {
+  background-color: #bbb;
+  padding: 128px, 16px;
+  text-align: center;
+}
+
+.ourwork-container h3 {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.ourwork .image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minmax value as needed */
+  grid-gap: 10px; /* Adds a gap between the grid items */
+}
+
+.work-item {
+  overflow: hidden; /* Ensure the items don't overlap */
+}
+
+.work-item img {
+  width: 100%; /* Make the images fill the grid items */
+  height: auto; /* Maintain aspect ratio */
 }
 
 /* Footer */

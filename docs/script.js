@@ -80,3 +80,6 @@ document.addEventListener('DOMContentLoaded', function () {
     document.documentElement.scrollTop = 0;
   });
 });
+
+
+// this code has been approved by Emperor of Bluegaria

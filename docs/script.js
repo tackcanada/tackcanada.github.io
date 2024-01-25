@@ -83,3 +83,18 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 // this code has been approved by Emperor of Bluegaria
+
+// Optimizing images
+const imagemin = require('imagemin');
+const imageminMozjpeg = require('imagemin-mozjpeg');
+
+(async() => {
+  const files = await imagemin(
+      ['grid1.png, grid2.png, grid3.png, grid4.png, grid5.png, grid6.png, slide1.png, slide2.png, slide3.png, team1.png, team2.png, team3.png, team4.png'],
+      {
+        destination: 'destination_dir',
+        plugins: [imageminMozjpeg({quality: 50})]
+      }
+  );
+  console.log(files);
+})();

@@ -213,13 +213,13 @@ nav .icon {
 }
 
 .subheading {
-  font-size: 25px;
+  font-size: 3vmin;
 }
 
 .about-container .sections {
   display: grid; /* Sets the about section as a grid of columns */
   grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
-  gap: 10px; /* Adds a gap between the columns */
+  gap: 15px; /* Adds a gap between the columns */
 }
 
 .sections {
@@ -231,8 +231,7 @@ nav .icon {
 }
 
 .about-container .description {
-  padding: 40px;
-  padding-top: 20px;
+  padding: 20px;
   font-size: 2.5vmin;
 }
 

@@ -31,8 +31,7 @@ function showSlides(n) {
 const images = document.querySelectorAll('.image-grid img');
 const modalOverlay = document.getElementById('imageModal');
 const modalImage = document.getElementById('modalImage');
-const modalHeading = document.getElementById('modalHeading'); // New heading element
-const captionText = document.getElementById('caption');
+const modalHeading = document.getElementById('modalHeading'); // heading element
 
 // Array of captions corresponding to each image
 const captions = [
@@ -53,7 +52,6 @@ images.forEach((image, index) => {
     modalImage.src = image.src;
     modalImage.alt = image.alt;
     modalHeading.innerHTML = captions[index]; // Update the heading
-    captionText.innerHTML = captions[index];
   });
 });
 

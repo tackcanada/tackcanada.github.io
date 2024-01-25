@@ -59,3 +59,24 @@ images.forEach((image, index) => {
 function closeModal() {
   modalOverlay.style.display = 'none';
 }
+
+// Scroll to Top MECHANICS
+
+document.addEventListener('DOMContentLoaded', function () {
+  const scrollButton = document.getElementById('scrollToTop');
+
+  // Show/hide the scroll-to-top button based on scroll position
+  window.addEventListener('scroll', function () {
+    if (document.body.scrollTop > 3500 || document.documentElement.scrollTop > 3500) {
+      scrollButton.style.display = 'block';
+    } else {
+      scrollButton.style.display = 'none';
+    }
+  });
+
+  // Scroll to the top when the button is clicked
+  scrollButton.addEventListener('click', function () {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  });
+});
